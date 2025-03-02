@@ -68,7 +68,42 @@ A ride may start but not reach the drop location due to:
 
 ### ⭐ 8. User Experience Metrics  
 - **Driver Ratings** – Rating given to the driver by the customer  
-- **Customer Ratings** – Rating given to the customer by the driver  
+- **Customer Ratings** – Rating given to the customer by the driver
+
+
+# 📊 Key Insights from Dataset Analysis  
+
+## 🚫 Ride Cancellations  
+### 🔴 Customer Cancellations  
+- **29.31%** of cancellations were due to **drivers not moving** towards the pickup location.  
+- **15.38%** of cancellations were due to **AC not working** (only for four-wheelers).  
+
+### 🔵 Driver Cancellations  
+- **34.56%** of cancellations were due to **personal and car-related issues**.  
+
+### 📉 Overall Cancellation Rate  
+- **28.10%** of total bookings were canceled.  
+
+---
+
+## 💳 Payment Trends  
+- 💰 **Highest number of payments were made via:** **CASH**.  
+- 🏦 **The second highest payment method was:** **UPI**.  
+
+---
+
+## 🚗 Vehicle Preference  
+- 🏆 **Most preferred four-wheeler:** **Prime Sedan** 🚗  
+- 🥈 **Second highest preferred four-wheeler:** **Prime SUV** 🚙  
+- 🏍 **Most single-person riders chose:** **E-Bike** for their rides.  
+
+---
+
+## 📌 Booking Status Breakdown  
+- ❌ **Cancelled by Driver:** **17.91%**  
+- ❌ **Cancelled by Customer:** **10.20%**  
+- ⚠️ **Driver Not Found:** **9.90%**  
+
 
 
 
