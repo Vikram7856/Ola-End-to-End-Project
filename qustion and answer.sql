@@ -1,6 +1,7 @@
+CREATE DATABASE Ola;
 USE ola;
 
-
+DROP TABLE IF EXISTS Bookings;
 CREATE TABLE Bookings(
 Date TEXT,
 Time	TEXT,
@@ -44,6 +45,7 @@ CREATE VIEW no_of_cancelled_rides_by_customer AS
 SELECT COUNT(*) AS no_of_cancelled_rides FROM bookings
 WHERE Booking_Status = 'Canceled by Customer';
 
+DROP VIEW IF EXISTS top_5_customer;
 CREATE VIEW top_5_customer AS
 SELECT Customer_ID,
       COUNT(Booking_ID) AS no_of_bookings 
@@ -52,10 +54,12 @@ GROUP BY Customer_ID
 ORDER BY COUNT(Booking_ID) DESC
 LIMIT 5;
 
+DROP VIEW IF EXISTS ride_cancelled_due_to_PCR;
 CREATE VIEW ride_cancelled_due_to_PCR AS
 SELECT COUNT(Booking_ID) AS no_of_cancelled_rides FROM bookings
 WHERE Booking_Status = 'Canceled by Driver' AND Canceled_Rides_by_Driver = 'Personal & Car related issue';
 
+DROP VIEW IF EXISTS max_min_driver_rating_of_prime_sedan;
 CREATE VIEW max_min_driver_rating_of_prime_sedan AS
 SELECT Vehicle_Type,
        MAX(Driver_Ratings) AS maximum_driver_rating,
@@ -63,10 +67,12 @@ SELECT Vehicle_Type,
 FROM bookings
 WHERE Vehicle_Type = 'Prime Sedan';
 
+DROP VIEW IF EXISTS upi_payment;
 CREATE VIEW upi_payment AS
 SELECT * FROM bookings
 WHERE Payment_Method = 'UPI';
 
+DROP VIEW IF EXISTS avg_rating_per_vehicle;
 CREATE VIEW avg_rating_per_vehicle AS
 SELECT Vehicle_Type,
        ROUND(AVG(Customer_Rating),2) AS average_rating
@@ -74,14 +80,15 @@ SELECT Vehicle_Type,
  GROUP BY Vehicle_Type
  ORDER BY  ROUND(AVG(Customer_Rating),2) DESC;
  
- 
-  CREATE VIEW total_booking_value_of_rides AS
- SELECT SUM(Booking_Value) AS total_booking_value FROM bookings
- WHERE Booking_Status = 'Success';
- 
-  CREATE VIEW incomplete_rides_reason AS
- SELECT Booking_ID, Incomplete_Rides_Reason FROM bookings
- WHERE Incomplete_Rides = 'Yes' AND Incomplete_Rides_Reason IS NOT NULL ;
+DROP VIEW IF EXISTS total_booking_value_of_rides;
+CREATE VIEW total_booking_value_of_rides AS
+SELECT SUM(Booking_Value) AS total_booking_value FROM bookings
+WHERE Booking_Status = 'Success';
+
+DROP VIEW IF EXISTS incomplete_rides_reason;
+CREATE VIEW incomplete_rides_reason AS
+SELECT Booking_ID, Incomplete_Rides_Reason FROM bookings
+WHERE Incomplete_Rides = 'Yes' AND Incomplete_Rides_Reason IS NOT NULL ;
 
 
 /*1. Retrieve all successful bookings:*/
