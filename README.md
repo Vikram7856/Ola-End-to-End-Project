@@ -104,6 +104,23 @@ A ride may start but not reach the drop location due to:
 - ❌ **Cancelled by Customer:** **10.20%**  
 - ⚠️ **Driver Not Found:** **9.90%**  
 
+ 
+The findings can help **companies optimize operations, reduce cancellations, and improve customer satisfaction.**  
+
+---
+
+# 📌 Business Recommendations  
+
+### 🚗 Reduce Customer Cancellations  
+✅ Optimize **driver allocation algorithms** to ensure drivers move towards pickup locations.  
+✅ Improve **vehicle maintenance** (especially AC in four-wheelers).  
+
+### 💳 Encourage Digital Payments  
+✅ Promote **UPI & card payments** to reduce cash dependency.  
+
+### 🏍 Increase E-Bike Availability  
+✅ Since **single riders prefer E-Bikes**, increasing their availability could improve efficiency.  
+
 
 
 
