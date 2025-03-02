@@ -28,7 +28,7 @@ Ola offers multiple vehicle options, and the dataset includes:
 - **Prime SUV** (Large SUV rides)  
 
 ### 📍 3. Location Details  
-- **Pickup Location** – 50 dummy locations from Bangalore  
+- **Pickup Location** – Pickup locations from Bangalore  
 - **Drop Location** – Selected from the same set of pickup locations  
 
 ### ⏳ 4. Time Metrics  
