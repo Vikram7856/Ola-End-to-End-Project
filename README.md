@@ -1,10 +1,15 @@
 # Ola Ride Dataset Analysis
 
 ## 📌 Project Overview  
-This project focuses on analyzing ride-hailing data from **Ola**, one of India’s leading mobility services. The dataset provides insights into ride bookings, cancellations, ride completion rates, customer and driver behaviors, and other key performance metrics.  
+This project focuses on analyzing ride-hailing data from **Ola**, one of India’s leading mobility services. The dataset provides insights into ride bookings, cancellations, ride completion rates, customer and driver behaviors, and other key performance metrics. This dataset contains **one month of ride-hailing data from Ola**, covering the period **from July 1, 2024, to July 30, 2024**. 
 
 Through **data analysis, visualization, and MYSQL Query**, this project aims to uncover trends in **ride efficiency, cancellation reasons, vehicle demand, and user satisfaction**.  
+This dataset contains **one month of ride-hailing data from Ola**, covering the period **from July 1, 2024, to July 30, 2024**. 
 
+### **📅 Time Frame**  
+- **Start Date:** 01-07-2024  
+- **End Date:** 30-07-2024  
+- **Duration:** 1 month  
 ---
 
 ## 📊 Dataset Description  
