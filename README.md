@@ -87,15 +87,15 @@ A ride may start but not reach the drop location due to:
 ---
 
 ## 💳 Payment Trends  
-- 💰 **Highest number of payments were made via:** **CASH**.  
+- 💰 **Highest number of payments were made via:** **CASH (55.38\%)**.   
 - 🏦 **The second highest payment method was:** **UPI**.  
 
 ---
 
 ## 🚗 Vehicle Preference  
-- 🏆 **Most preferred four-wheeler:** **Prime Sedan** 🚗  
-- 🥈 **Second highest preferred four-wheeler:** **Prime SUV** 🚙  
-- 🏍 **Most single-person riders chose:** **E-Bike** for their rides.  
+- 🏆 **Most preferred four-wheeler:** **Prime Sedan (14.43\%)** 🚗  
+- 🥈 **Second highest preferred four-wheeler:** **Prime SUV (14.43\%)** 🚙  
+- 🏍 **Most single-person riders chose:** **E-Bike (14.69\%)** for their rides.  
 
 ---
 
