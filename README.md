@@ -93,9 +93,9 @@ A ride may start but not reach the drop location due to:
 ---
 
 ## 🚗 Vehicle Preference  
-- 🏆 **Most preferred four-wheeler:** **Prime Sedan (14.43\%)** 🚗  
-- 🥈 **Second highest preferred four-wheeler:** **Prime SUV (14.43\%)** 🚙  
-- 🏍 **Most single-person riders chose:** **E-Bike (14.69\%)** for their rides.  
+- 🏆 **Most preferred four-wheeler:** **Prime Sedan (14.64\%)** 🚗  
+- 🥈 **Second highest preferred four-wheeler:** **Prime SUV (14.10\%)** 🚙  
+- 🏍 **Most single-person riders chose:** **E-Bike (14.76\%)** for their rides.  
 
 ---
 
